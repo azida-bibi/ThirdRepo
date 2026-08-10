@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Number Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+
+    <br />
+    <br />
+    <div id="form-div">
+      <form id="myForm">
+        <div>
+          <div>
+            <label>Number 1</label>
+            <input
+              type="number"
+              step="any"
+              placeholder="Enter Number 1"
+              id="num1"
+            />
+          </div>
+          <div>
+            <label>Number 2</label>
+            <input
+              type="number"
+              step="any"
+              placeholder="Enter Number 2"
+              id="num2"
+            />
+          </div>
+        </div>
+
+        <div class="inputdiv">
+          <input type="submit" value="Add" id="addBtn" />
+          <input type="submit" value="Subtract" id="subtractBtn" />
+          <input type="submit" value="Multiply" id="multiplyBtn" />
+          <input type="submit" value="Divide" id="divideBtn" />
+        </div>
+        <input type="reset" value="Reset" id="resetBtn" />
+      </form>
+
+      <div
+        style="
+          width: 450px;
+          height: 170px;
+          border: 2px solid black;
+          border-radius: 5px;
+          background-color: #ececec;
+        "
+      >
+        <p
+          style="
+            font-weight: bold;
+            font-size: 21px;
+            margin-top: 0px;
+            background-color: #142d4c;
+            color: white;
+            padding: 5px;
+            text-align: center;
+          "
+        >
+          Result Details
+        </p>
+        <p
+          id="output"
+          style="font-size: 17px; padding-left: 10px; margin-top: 5px"
+        ></p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
