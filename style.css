@@ -6,8 +6,8 @@
 
 body {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url("https://cdn.pixabay.com/photo/2014/08/22/17/43/calculator-424564_1280.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("https://yourweightcantwait.sg/wp-content/uploads/ywcw-infographic2-intro.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,9 +65,10 @@ select {
 input[type="submit"] {
   background-color: #0055aa;
   color: white;
-  padding: 8px;
-  font-size: 14px;
+  padding: 12px;
+  font-size: 18px;
   width: 100%;
+  border-radius: 8px;
 }
 input[type="submit"]:hover {
   background-color: #003366;
@@ -80,6 +81,7 @@ input[type="reset"] {
   padding: 12px;
   font-size: 18px;
   width: 100%;
+  border-radius: 8px;
 }
 input[type="reset"]:hover {
   background-color: #e8630a;
@@ -100,4 +102,11 @@ input[type="reset"]:hover {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+#averageBtn {
+  background-color: olivedrab;
+}
+
+#averageBtn:hover {
+  background-color: olive;
 }
